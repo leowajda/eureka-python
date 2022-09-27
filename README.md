@@ -2,16 +2,7 @@
 
 ![banner](banner.png "eureka-python")
 
-A curated list of [Python](https://www.python.org/) solutions for problems regarding algorithms and data structures! The project is shipped with a testing environment for learning and experimenting.\
-Tests are written in [pytest](https://docs.pytest.org/en/7.1.x/) and mocks in [pytest-mock](https://pytest-mock.readthedocs.io/en/latest/). [PyHamcrest](https://pyhamcrest.readthedocs.io/en/latest/) matchers are used extensively to improve code readability.\
-The following table explains the meaning of commonly used aliases throughout the project:
-
-|            Alias            |    Solution    |
-|:---------------------------:|:--------------:|
-|       :arrow_up_down:       |   iterative    |
-|  :arrows_counterclockwise:  |   recursive    |
-| :twisted_rightwards_arrows: | multi-threaded |
-
+A curated list of [Python](https://www.python.org/) solutions for problems regarding algorithms and data structures! The project is shipped with a testing environment for learning and experimenting. Tests are written in [pytest](https://docs.pytest.org/en/7.1.x/) and mocks in [pytest-mock](https://pytest-mock.readthedocs.io/en/latest/). [PyHamcrest](https://pyhamcrest.readthedocs.io/en/latest/) matchers are used extensively to improve code readability.
 
 ## :pushpin: Installation
 
