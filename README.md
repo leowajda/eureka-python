@@ -1,6 +1,6 @@
 # :books: eureka-python
 
-![banner](banner.png "eureka-python")
+![banner](./docs/banner.png "eureka-python")
 
 A curated list of [Python](https://www.python.org/) solutions for problems regarding algorithms and data structures! The project is shipped with a testing environment for learning and experimenting. Tests are written in [pytest](https://docs.pytest.org/en/7.1.x/) and mocks in [pytest-mock](https://pytest-mock.readthedocs.io/en/latest/). [PyHamcrest](https://pyhamcrest.readthedocs.io/en/latest/) matchers are used extensively to improve code readability.
 
@@ -17,7 +17,7 @@ $ pytest                                                  # (optional) run all t
 
 ## :pencil2: Index
 
-|  ID  |                                                                                                          Name                                                                                                           |                                                                                                         Solution                                                                                                          |
+|  ID  |                                                                                                          Name                                                                                                           |                                                                                                          Python                                                                                                           |
 |:----:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |  1   |                                                                                    [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                    | [:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0001.py) [:arrows_counterclockwise:](https://github.com/leowajda/eureka-python/blob/master/src/array/recursive/lc_0001.py) |
 |  34  |                                    [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)                                    |                                                          [:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0034.py)                                                          |
