@@ -7,8 +7,8 @@ on:
       - master
 
 jobs:
-  update-documentation:
+  updater:
     uses: leowajda/eureka-scraper/.github/workflows/updater.yml@master
     with:
       path-filter: 'src/**/*.py'
-      ignore-file: '**/__init__.py'
+      file-ignore: '**/__init__.py'
