@@ -36,10 +36,10 @@ new_frames = [pd.DataFrame(
 
 frames = pd.concat(new_frames + [prev_frames], ignore_index=True)
 frames = frames.groupby(by=[id_col, name_col], as_index=False)[lang_col].agg(lambda x: set(x))
-frames = frames.set_index(keys=[id_col]).sort_index()
 frames[lang_col] = frames[lang_col].apply(' '.join)
 
 if not frames.equals(prev_frames):
+    frames = frames.set_index(keys=[id_col]).sort_index()
     with open('./docs/data.csv', 'w') as f:
         f.write(frames.to_csv())
 
