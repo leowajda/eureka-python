@@ -1,4 +1,4 @@
-from binary_tree.TreeNode import TreeNode
+from src.binary_tree.TreeNode import TreeNode
 
 
 class Solution:

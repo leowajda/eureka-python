@@ -1,7 +1,7 @@
 import pytest
 from hamcrest import assert_that, equal_to
 
-from binary_tree.TreeNode import deserialize
+from src.binary_tree.TreeNode import deserialize
 from src.binary_tree.recursive.lc_1448 import Solution
 
 
