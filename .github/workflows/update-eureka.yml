@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  updater:
+  updater-python:
     uses: leowajda/eureka/.github/workflows/update-eureka.yml@master
     with:
       path-filter: 'src/**/*.py'
