@@ -8,6 +8,7 @@ ID,Name,Python
 121,[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0121.py)
 122,[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0122.py)
 162,[Find Peak Element](https://leetcode.com/problems/find-peak-element/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0162.py)
+198,[House Robber](https://leetcode.com/problems/house-robber/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0198.py)
 297,[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/),[:arrows_counterclockwise:](https://github.com/leowajda/eureka-python/blob/master/src/binary_tree/recursive/lc_0297.py)
 309,[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0309.py)
 509,[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/), [:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/math/iterative/lc_0509.py) 
