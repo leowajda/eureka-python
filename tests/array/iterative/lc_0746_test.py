@@ -10,7 +10,7 @@ class TestSolution:
         return Solution()
 
     @pytest.mark.parametrize("cost, expected", [
-        ([10,15,20], 15),
+        ([10,15,20],                  15),
         ([1,100,1,1,1,100,1,1,100,1], 6)
     ])
     def test_search_range(self, solution, cost, expected):
