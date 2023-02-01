@@ -1,10 +1,6 @@
-# :books: eureka-python
+![banner](./docs/banner.png "banner")
 
-![banner](./docs/banner.png "eureka-python")
-
-A curated list of [Python](https://www.python.org/) solutions for problems regarding algorithms and data structures! The project is shipped with a testing environment for learning and experimenting. Tests are written in [pytest](https://docs.pytest.org/en/7.1.x/) and mocks in [pytest-mock](https://pytest-mock.readthedocs.io/en/latest/). [PyHamcrest](https://pyhamcrest.readthedocs.io/en/latest/) matchers are used extensively to improve code readability.
-
-## :pushpin: Installation
+A curated list of [Python](https://www.python.org/) solutions to problems involving algorithms and data structures! The project is shipped with a testing environment for learning and experimenting.
 
 ```shell
 $ git clone https://github.com/leowajda/eureka-python.git # clone the repository from GitHub
@@ -15,5 +11,5 @@ $ pip install -r requirements.txt                         # install dependencies
 $ pytest                                                  # (optional) run all the tests
 ```
 
-## :pencil2: Index
+## :books: Index
 
