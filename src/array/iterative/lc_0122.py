@@ -3,9 +3,11 @@ from typing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        cooldown, acquisition, profit = 0, float('-inf'), float('-inf')
 
+        prev_state = [float('-inf'), float('-inf'), 0]
         for price in prices:
-            cooldown, acquisition, profit = max(profit, cooldown), max(cooldown - price, profit - price, acquisition), acquisition + price
+            prev_sell, prev_acquisition, prev_profit = prev_state
+            prev_state = [prev_acquisition + price, max(prev_acquisition, prev_profit - price, prev_sell - price), max(prev_profit, prev_sell)]
 
-        return max(cooldown, profit)
+        max_sell, _, max_profit = prev_state
+        return max(max_sell, max_profit)
