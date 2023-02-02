@@ -4,10 +4,10 @@ from typing import List
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
-        prev_state = [float('-inf'), float('-inf'), 0]
+        state = [float('-inf'), float('-inf'), 0]
         for price in prices:
-            prev_sell, prev_acquisition, prev_profit = prev_state
-            prev_state = [prev_acquisition + price, max(prev_acquisition, prev_profit - price, prev_sell - price), max(prev_profit, prev_sell)]
+            sell, acquisition, profit = state
+            state = [acquisition + price, max(acquisition, profit - price, sell - price), max(profit, sell)]
 
-        max_sell, _, max_profit = prev_state
+        max_sell, _, max_profit = state
         return max(max_sell, max_profit)
