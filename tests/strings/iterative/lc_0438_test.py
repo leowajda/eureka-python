@@ -12,6 +12,6 @@ class TestSolution:
     @pytest.mark.parametrize("s, p, expected", [
         ("cbaebabacd", "abc", [0,6]), ("abab", "ab", [0,1,2])
     ])
-    def test_num_decodings(self, solution, s, p, expected):
+    def test_findAnagrams(self, solution, s, p, expected):
         result = solution.findAnagrams(s, p)
         assert_that(result, equal_to(expected))
