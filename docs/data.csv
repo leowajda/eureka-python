@@ -3,6 +3,7 @@ ID,Name,Python
 34,[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0034.py)
 45,[Jump Game II](https://leetcode.com/problems/jump-game-ii/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/lc_0045.py)
 62,[Unique Paths](https://leetcode.com/problems/unique-paths/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/graph/iterative/lc_0062.py)
+67,[Add Binary](https://leetcode.com/problems/add-binary/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/math/iterative/lc_0067.py)
 79,[Word Search](https://leetcode.com/problems/word-search/),[:arrows_counterclockwise:](https://github.com/leowajda/eureka-python/blob/master/src/graph/recursive/lc_0079.py)
 91,[Decode Ways](https://leetcode.com/problems/decode-ways/),[:arrow_up_down:](https://github.com/leowajda/eureka-python/blob/master/src/strings/iterative/lc_0091.py)
 104,[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/),[:arrows_counterclockwise:](https://github.com/leowajda/eureka-python/blob/master/src/binary_tree/recursive/lc_0104.py)
