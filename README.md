@@ -1,2 +1,4 @@
-| Name | Python |
-|:----:|:------:|
+
+|                             Name                             |                                                     Python                                                      |
+|:------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+| [Binary Search](https://leetcode.com/problems/binary-search) | [:arrow_right_hook:](https://github.com/leowajda/eureka-python/blob/master/src/array/iterative/BinarySearch.py) |
