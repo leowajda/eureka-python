@@ -1,0 +1,13 @@
+name: update documentation
+run-name: update /content and README.md
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  python:
+    uses: leowajda/eureka/.github/workflows/update-table.yml@master
+    with:
+      path-filter: 'src/**/*.py'
